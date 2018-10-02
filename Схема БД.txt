@@ -1,0 +1,18 @@
+CREATE TABLE purchase ( 
+	userId varchar(64),
+	ProductId integer,
+	Price money,
+	operationDate timestamp
+);
+
+CREATE TABLE levelUpHistory ( 
+	userId varchar(64),
+	level int2,
+	operationDate timestamp
+);
+
+CREATE TABLE sessionHistory ( 
+	userId varchar(64),
+	duration integer,
+	operationDate timestamp
+);

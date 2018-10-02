@@ -1,0 +1,17 @@
+<?xml version = "1.0"?>
+<application_config>
+  <database>
+    <port>5432</port>
+    <host>localhost</host>
+    <basename>user_history</basename>
+    <user>postgres</user>
+    <password>1</password>
+  </database>
+  <threads>
+    <counthandlerthread>3</counthandlerthread>
+    <counteventthread>2</counteventthread>
+  </threads>
+  <reports>
+    <folder>C:\Проекты\Reports</folder>
+  </reports>
+</application_config>
